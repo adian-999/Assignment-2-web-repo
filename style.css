@@ -184,6 +184,10 @@ ul{
 
 
 }
+main{
+    background-color: black;
+    color:white;
+}
 /* section 1  */
 .sec-1{
     text-align: center;
@@ -224,6 +228,146 @@ ul{
     color:white;
 }
 
+/* sec-2 */
+.sec-2{
+   
+    background-color: black;
+    padding:100px;
+   
+}
+.sec-2-img{
+    width:50%;
+    height:312px;
+    width:366px;
+    border-radius:30px;
+
+    
+    
+    
+}
+.back-2{
+    display:flex;
+    justify-content: center;
+    gap:360px;
+    background-color: rgb(49, 47, 47);
+    padding:30px;
+    border-radius:30px;
+    margin-left:200px;
+    margin-right:200px;
+}
+.sec-2-title{
+    font-size:3rem;
+    color:white;
+    width:350px;
+}
+.sec-2-des{
+    font-size:0.9rem;
+    color:white;
+    width:500px;
+}
+.now{
+    font-size: 1rem;
+    font-weight:700;
+    background-color: #E6533C;
+    border-radius:25px;
+    padding:20px 70px;
+    border:none;
+    cursor: pointer;
+
+}
+.now a{
+    text-decoration: none;
+    color:white;
+}
+/* sec-3 */
+.sec-3 h1{
+    font-size:3rem;
+    font-weight:800;
+    color:white;
+}
+.sec-3 p{
+    font-size:0.8rem;
+    color:white;
+}
+.sec-3{
+    background-color:black;
+    padding-top:20px;
+}
+.sec-3-img-1 {
+    display:flex;
+    height:200px;
+    width:1000px;
+    width:100%;
+}
+.sec-3-img-1 img{
+    height:200px;
+}
+.pushup{
+    width:500px;
+}
+.exe1{
+    width:250px;
+     
+     
+}
+.exe2{
+    width:250px;
+}
+.sec-3-img-2{
+    display:flex;
+    height:200px;
+    width:1000px;
+    width:100%;
+}
+.sec-3-img-2 img{
+    height:200px;
+}
+.img-4{
+    width:410px;
+}
+.img-5{
+    width:260px;
+}
+.img-6{
+    width:330px;
+}
+.sec-3-img{
+    display: grid;
+    justify-content: center;
+}
+.sec-3-des{
+    margin-left:455px;
+    width:550px;
+}
+/* sec-4 */
+.chart h1{
+    font-size:2rem;
+}
+table tr td{
+    border:1px solid white;
+    padding-left:20px;
+    color:rgb(221, 194, 194);
+
+}
+table{
+    border-collapse: collapse;
+    width:310px;
+    height:216px;
+}
+.head td{
+    font-weight: bold;
+    font-size:1rem;
+    color:white;
+}
+.calculation h1{
+    font-size:2rem;
+
+}
+.calculation p{
+    font-size: 0.8rem;
+}
+    
+
 @media screen and (max-width:576px){
     .navbar{
         display:none;
@@ -258,5 +402,33 @@ ul{
         margin:auto;
         padding:20px;
     }
+    /* sec-2 */
+    .back-2{
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        background: none;
+        justify-content: center;
+        grid-row-gap:40px;
+       
+    }
+    /* sec-3 */
+    .sec-3-des{
+        margin-left:100px;
+        text-align: center;
+        margin:auto;
+    }
+    .sec-3-img-1 img{
+        width:250px;
+    }
+    .img-6{
+        display:none;
+    }
+    .exe2{
+        display:none;
+    }
+    .img-4{
+        width:240px;
+    }
+    
 }
     
