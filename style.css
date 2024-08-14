@@ -452,6 +452,40 @@ input{
     margin-top:100px;
     margin-bottom:100px;
 }
+/* footer */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top:100px;
+}
+footer{
+    background-color:rgb(46, 41, 41) ;
+    padding-bottom:30px;
+   
+}
+.footer-1{
+    width:25%;
+}
+.footer-1 h1{
+    font-size:4.5rem;
+    font-weight:bolder;
+    font-style:italic;
+    color:#E6533C;
+}
+.last-line{
+    border-top:1px solid white;
+    width:800px;
+    margin-top:70px;
+    margin-left:500px;
+
+}
+.last-line p{
+    margin-top:40px;
+    display:flex;
+    justify-content: center;
+    
+}
+
 
     
 
@@ -547,6 +581,21 @@ input{
     }
     .sec-5-img{
         margin-left:100px;
+    }
+    /* footer */
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(1,fr);
+        margin:auto;
+        width:auto;
+        justify-content: center;
+        margin-left:50px;
+        margin-top:50px;
+        
+    }
+    .last-line{
+        margin:auto;
+        width:100%;
     }
     
 }
